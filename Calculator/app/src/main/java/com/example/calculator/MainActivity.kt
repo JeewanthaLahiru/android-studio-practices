@@ -65,6 +65,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun appendOnExpression(string:String , canClear: Boolean){
+        if(tvResult.text.isNotEmpty()){
+            tvExpression.text = ""
+        }
         if(canClear){
             tvResult.text = ""
             tvExpression.append(string)
