@@ -30,6 +30,19 @@ class MainActivity : AppCompatActivity() {
         tvOpen.setOnClickListener({appendOnExpression("(",false)})
         tvClose.setOnClickListener({appendOnExpression(")",false)})
 
+        tvClear.setOnClickListener({
+            tvExpression.text = ""
+            tvResult.text = ""
+        })
+
+        tvBack.setOnClickListener({
+            val string = tvExpression.text.toString()
+            if(string.isNotEmpty()){
+                tvExpression.text = string.substring(0,string.length-1)
+            }
+            tvResult.text = ""
+        })
+
 
     }
 
