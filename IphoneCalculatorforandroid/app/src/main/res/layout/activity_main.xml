@@ -36,21 +36,21 @@
             >
 
             <TextView
-                android:id="@+id/calSeven"
-                style="@style/NumberButtonStyle"
-                android:text="7"/>
+                android:id="@+id/calC"
+                style="@style/ActionButtonGreyStyle"
+                android:text="C"/>
             <TextView
-                android:id="@+id/calEight"
-                style="@style/NumberButtonStyle"
-                android:text="8"/>
+                android:id="@+id/calplusmunus"
+                style="@style/ActionButtonGreyStyle"
+                android:text="+/-"/>
             <TextView
-                android:id="@+id/calNine"
-                style="@style/NumberButtonStyle"
-                android:text="9"/>
+                android:id="@+id/calPercentage"
+                style="@style/ActionButtonGreyStyle"
+                android:text="%"/>
             <TextView
-                android:id="@+id/calMultiply"
-                style="@style/ActionButtonOrangeStyle"
-                android:text="*"/>
+                android:id="@+id/calDivide"
+                style="@style/ActionButtonGreyStyle"
+                android:text="/"/>
 
 
         </LinearLayout>
