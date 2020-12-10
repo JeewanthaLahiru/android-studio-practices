@@ -1,0 +1,2 @@
+rootProject.name='Iphone Calculator for android'
+include ':app'
