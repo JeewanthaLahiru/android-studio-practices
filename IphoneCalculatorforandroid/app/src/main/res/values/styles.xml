@@ -17,6 +17,7 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:gravity">center</item>
         <item name="android:shape">oval</item>
+        <item name="android:layout_margin">5dp</item>
     </style>
     <style name="ActionButtonGreyStyle">
         <item name="android:layout_width">0dp</item>
@@ -26,6 +27,7 @@
         <item name="android:textSize">21sp</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:gravity">center</item>
+        <item name="android:layout_margin">5dp</item>
     </style>
     <style name="NumberButtonStyle">
         <item name="android:layout_width">0dp</item>
@@ -36,6 +38,7 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:gravity">center</item>
         <item name="android:shape">oval</item>
+        <item name="android:layout_margin">5dp</item>
     </style>
 
 </resources>
